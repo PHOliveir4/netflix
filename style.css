@@ -2,13 +2,13 @@
     background: url('img/logo.png') no-repeat center;
     text-indent: -9999px;
     width: 100%;
-    max-width: 85px; /* Ajuste conforme necessário */
+    max-width: 85px;
     height: auto;
     display: block;
     background-size: cover;
-  }
+}
 
-  .movie-card {
+.movie-card {
     position: relative;
     overflow: hidden;
     border-radius: 8px;
@@ -56,5 +56,3 @@
     font-size: 0.875rem;
     color: #bbb;
 }
-
-  
