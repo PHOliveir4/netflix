@@ -33,11 +33,21 @@
         <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
             <!-- Card do Filme -->
 
-            <div class="movie-card">
+            <div class="movie-card" id="movieCard">
                 <img src="img/hollywood.png" alt="Wanted: Hollywood" class="movie-image">
                 <div class="movie-overlay">
                     <h4 class="movie-title">Wanted: Hollywood</h4>
                     <p class="movie-genre">Crime | Drama</p>
+                </div>
+            </div>
+
+            <!--WANTED HOLLYEWOOD PAINEL-->
+            <div class="modal-overlay" id="modalOverlay">
+                <div class="modal">
+                    <img src="https://via.placeholder.com/350x150" alt="Banner">
+                    <h2>Bem-vindo ao Painel!</h2>
+                    <p>Isso é um painel deslizante animado.</p>
+                    <button class="close-btn" id="closeBtn">Fechar</button>
                 </div>
             </div>
 
@@ -163,6 +173,7 @@
         </div>
     </section>
 
+        <script src="script.js"></script>
 </body>
 
 </html>
